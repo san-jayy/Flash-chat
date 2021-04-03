@@ -47,7 +47,6 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   textAlign: TextAlign.center,
                   onChanged: (value) {
                     email = value;
-                    //Do something with the user input.
                   },
                   style: TextStyle(color: Colors.black87),
                   decoration: kTextFieldDEcoration.copyWith(
