@@ -100,28 +100,3 @@ class _WelcomeScreenState extends State<WelcomeScreen>
     );
   }
 }
-
-// code for Rounded button
-// Padding(
-//         padding: EdgeInsets.symmetric(vertical: 16.0),
-//         child: Material(
-//           color: Colors.blueAccent,
-//           borderRadius: BorderRadius.circular(30.0),
-//           elevation: 6.0,
-//           child: MaterialButton(
-//             onPressed: () {
-//               Navigator.pushNamed(context, RegistrationScreen.id);
-//               // the below code for un named routes
-//               // Navigator.push(context,
-//               //     MaterialPageRoute(builder: (context) {
-//               //   return RegistrationScreen();
-//               // }));
-//             },
-//             minWidth: 200.0,
-//             height: 42.0,
-//             child: Text(
-//               'Register',
-//             ),
-//           ),
-//         ),
-//       ),
